@@ -1,11 +1,11 @@
 # API-REST Hotel Decameron
-Simple API REST creado en PHP basada Laravel11 utilizando los métodos HTTP apropiados (GET, POST, PUT, DELETE).
+Simple API REST desarrollado en PHP basado en Laravel11 utilizando los métodos HTTP apropiados (GET, POST, PUT, DELETE).
 El objetivo de esta API es registrar los hoteles de una cadena hotelera y asi mismo configurar la cantidad de habitaciones de ada sede.
 
 #### Tecnologias Utilizadas:
 - Laravel 11, PHP 8, Composer, PostgresSQL.
 
-#### Como Utilizar:
+#### Como instalar:
 Para explorar e utilizar este repositório:
 
 1. **Clonar repositorio**: Clone este mismo repositorio en su máquina local.
@@ -33,3 +33,7 @@ Para explorar e utilizar este repositório:
    ```
    php artisan serve
    ```
+
+### Como consumir API:
+- Listado de hoteles: `GET /api/sedes`
+- Listado de habitaciones de hotel: `GET /api/habitaciones/{idsede}`
