@@ -36,4 +36,7 @@ Para explorar e utilizar este repositório:
 
 ### Como consumir API:
 - Listado de hoteles: `GET /api/sedes`
+- Crear hotel: `POST /api/sedes`
+- Actualizar hotel: `PUT /api/sedes/{idsede}`
+- Eliminar hotel: `DELETE /api/sedes/{idsede}`
 - Listado de habitaciones de hotel: `GET /api/habitaciones/{idsede}`
