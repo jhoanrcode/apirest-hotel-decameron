@@ -8,10 +8,10 @@ El objetivo de esta API es registrar los hoteles de una cadena hotelera y asi mi
 #### Como Utilizar:
 Para explorar e utilizar este repositório:
 
-1. **Clonar repositorio**: Clone este missmo repositorio en su máquina local.
+1. **Clonar repositorio**: Clone este mismo repositorio en su máquina local.
 
    ```
-   git clone https://github.com/Leonardo-Lucas-DEVOPS/Laravel-11-API.git
+   git clone https://github.com/jhoanrcode/apirest-hotel-decameron.git
    ```
 
 2. **Instalación de dependencias**: Utilice Composer para instalar todas las dependencias del proyecto Laravel.
@@ -20,15 +20,15 @@ Para explorar e utilizar este repositório:
    composer install
    ```
 
-3. **Configuración de ambiente**: Cree el archivo `.env` on las configuraciones de su ambiente de desarrollo, incluida la conexión con el banco de datos.
+3. **Configuración de ambiente**: Cree el archivo `.env` y modifíquelo usando el archivo `.env.example` y actualice la información de conexion a base de datos. (BD PostgresSQL)
 
-4. **Execute as Migrações**: Execute as migrações do Laravel para criar as tabelas necessárias no banco de dados.
+4. **Ejecutar migraciones**: Ejecute las migraciones de Laravel para crear las tablas necesarias en base de datos.
 
    ```
    php artisan migrate
    ```
 
-5. **Inicie o Servidor**: Inicie o servidor de desenvolvimento do Laravel para testar e acessar a API.
+5. **Ejecutar el servidor**: 
 
    ```
    php artisan serve
