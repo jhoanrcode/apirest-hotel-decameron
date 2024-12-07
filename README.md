@@ -40,3 +40,8 @@ Para explorar e utilizar este repositório:
 - Actualizar hotel: `PUT /api/sedes/{idsede}`
 - Eliminar hotel: `DELETE /api/sedes/{idsede}`
 - Listado de habitaciones de hotel: `GET /api/habitaciones/{idsede}`
+
+
+### Visualizar servicio de API:
+- Para visualizar el consumo de esta API desde un aplicativo, consulta el siguiente repositorio construido en VueJS 3: 
+[https://github.com/jhoanrcode/frontend-hotel-decameron](https://github.com/jhoanrcode/frontend-hotel-decameron)
